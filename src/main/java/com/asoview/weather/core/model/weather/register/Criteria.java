@@ -13,10 +13,10 @@ public class Criteria implements Serializable {
 
 
 
-    public String getPartnerOrBaseName() {
+    public String getCityName() {
         return cityName;
     }
-    public void setPartnerOrBaseName(String cityName) {
+    public void setCityName(String cityName) {
         this.cityName = cityName;
     }
 }
