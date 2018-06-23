@@ -25,6 +25,24 @@ repositories {
 
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-web')
+    compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf:${springBootVersion}")
+    compile("org.springframework.retry:spring-retry:1.2.1.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-jdbc:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-mail:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-validation:${springBootVersion}")
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: "${springBootVersion}"
+    runtime('mysql:mysql-connector-java:5.1.38')
+    compile('org.thymeleaf.extras:thymeleaf-extras-conditionalcomments:2.1.1.RELEASE')
+    compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
+
+    compile("de.javakaffee.msm:memcached-session-manager:1.9.2")
+    compile("de.javakaffee.msm:memcached-session-manager-tc8:1.9.2")
+
+    runtime("org.webjars:bootstrap:3.3.4")
+    runtime("org.webjars:font-awesome:4.3.0-1")
+    runtime("org.webjars:html5shiv:3.7.2")
+    runtime("org.webjars:respond:1.4.2")
+    
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>チケットタイプ検索</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--/*-->
+    <link rel="stylesheet" href="/static/css/ticket-type-list.min.css" th:href="@{/css/ticket-type-list.min.css}"/>
+</head>
+<body>
+<!--/*-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>チケットを検索する</h1>
+            </div>
+
+            <th:block th:object="${criteriaOfWeather}">
+                <form method="get" action="./list.html" th:method="post" th:action="@{'/weather-day/query'}">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="city-name" placeholder="City Name" th:field="*{cityName}"/>
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </div>
+                </form>
+            </th:block>
+
+            <hr/>
+        </div>
+    </div>
+
+</div>
+<!--/*-->
+</body>
+</html>

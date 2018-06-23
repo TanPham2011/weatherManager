@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.thymeleaf.extras:thymeleaf-extras-conditionalcomments:2.1.1.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.thymeleaf.extras/thymeleaf-extras-conditionalcomments/2.1.1.RELEASE/2619acf097471ba444452cb36151f74c1cc4ff17/thymeleaf-extras-conditionalcomments-2.1.1.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.thymeleaf.extras/thymeleaf-extras-conditionalcomments/2.1.1.RELEASE/bbc6ec553eab85e3e24cbc5f13c4f24ae3fe9062/thymeleaf-extras-conditionalcomments-2.1.1.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
