@@ -27,15 +27,14 @@ class WeatherCityQueryController {
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     String start() {
-        String a = "daddaadad";
-        return "weather-day/query/list";
+        return "weatherday/query/list";
     }
 
     @RequestMapping(value = "", method = RequestMethod.POST)
     String search(@Validated @ModelAttribute("criteriaOfWeather") Criteria criteria,
                   BindingResult result,
                   RedirectAttributes redirectAttributes) {
-        if (result.hasErrors()) return "weather-day/query/list";
+        if (result.hasErrors()) return "weatherday/query/list";
 
 //        PartnerSummaries partnerSummaries = partnerSearchService.listByCriteria(criteria);
 //        redirectAttributes.addFlashAttribute("partnerSummaries", partnerSummaries);

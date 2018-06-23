@@ -11,8 +11,6 @@ public class Criteria implements Serializable {
         return !cityName.isEmpty();
     }
 
-
-
     public String getCityName() {
         return cityName;
     }
