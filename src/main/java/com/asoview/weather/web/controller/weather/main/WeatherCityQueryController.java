@@ -36,6 +36,8 @@ class WeatherCityQueryController {
                   RedirectAttributes redirectAttributes) {
         if (result.hasErrors()) return "weatherday/query/list";
 
+        //String a = criteria.getCityName();
+
 //        PartnerSummaries partnerSummaries = partnerSearchService.listByCriteria(criteria);
 //        redirectAttributes.addFlashAttribute("partnerSummaries", partnerSummaries);
         return "redirect:/weather-day/query";
