@@ -6,7 +6,11 @@ import com.asoview.weather.core.model.weatherdate.WeatherDateSummary;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.text.ParseException;
+import java.util.Date;
+import java.util.Calendar;
 import java.util.List;
+import java.text.SimpleDateFormat;
 
 @Service
 public class WeatherDateSearchService {
@@ -28,6 +32,10 @@ public class WeatherDateSearchService {
 
     public WeatherDateSummaries weatherDateListByCity(String cityId){
         return weatherDateRepository.weatherDateListByCity(cityId);
+    }
+
+    public void deleteWeatherDateByCurrentDate(String cityId){
+        weatherDateRepository.deleteWeatherDateByCurrentDate(cityId);
     }
 
 }

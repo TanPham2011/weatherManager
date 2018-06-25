@@ -30,5 +30,14 @@
         DELETE FROM weather.weather_day WHERE id = #{weatherDateId}
     </delete>
 
+    <delete id="removeByCurrentDate">
+        DELETE
+        FROM
+        weather.weather_day
+        WHERE
+        DATE_FORMAT(weather_date, '%Y%m%d') = DATE_FORMAT(NOW(), '%Y%m%d')
+        AND
+        city_id = #{cityId}
+    </delete>
 
 </mapper>

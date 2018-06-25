@@ -1,5 +1,6 @@
 package com.asoview.weather.core.model.weatherdate;
 
+import java.util.Date;
 import java.util.List;
 
 public interface WeatherDateRepository {
@@ -7,4 +8,5 @@ public interface WeatherDateRepository {
     WeatherDateSummaries weatherDateList();
     void deleteWeatherDateById(Integer weatherDateId);
     WeatherDateSummaries weatherDateListByCity(String cityId);
+    void deleteWeatherDateByCurrentDate(String cityId);
 }

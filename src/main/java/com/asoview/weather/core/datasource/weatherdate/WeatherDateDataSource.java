@@ -6,6 +6,7 @@ import com.asoview.weather.core.model.weatherdate.WeatherDateSummary;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.Date;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,5 +41,10 @@ public class WeatherDateDataSource implements WeatherDateRepository {
             }
         }
         return new WeatherDateSummaries(values);
+    }
+
+    @Override
+    public void deleteWeatherDateByCurrentDate(String cityId){
+        weatherDateMapper.removeByCurrentDate(cityId);
     }
 }
