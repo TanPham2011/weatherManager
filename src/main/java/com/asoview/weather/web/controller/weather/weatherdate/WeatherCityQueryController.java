@@ -2,8 +2,9 @@ package com.asoview.weather.web.controller.weather.weatherdate;
 
 import com.asoview.weather.core.model.city.CitySummary;
 import com.asoview.weather.core.model.weather.register.Criteria;
+import com.asoview.weather.core.model.weatherdate.WeatherDateSummaries;
 import com.asoview.weather.core.model.weatherdate.WeatherDateSummary;
-import com.asoview.weather.core.service.WeatherDateSearchService;
+import com.asoview.weather.core.service.weatherdate.WeatherDateSearchService;
 import com.asoview.weather.core.service.city.CitySearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -43,13 +45,16 @@ class WeatherCityQueryController {
                   RedirectAttributes redirectAttributes) {
         if (result.hasErrors()) return "weatherday/query/list";
 
-        //String a = criteria.getCityName();
+        WeatherDateSummaries weatherDateSummaries = new WeatherDateSummaries(new ArrayList<WeatherDateSummary>());
 
         CitySummary citySummary = citySearchService.findByCityName(criteria);
-        if(citySummary == null){
-            String a = "99";
+        if(citySummary != null){
+            weatherDateSummaries = weatherDateSearchService.weatherDateList();
         }
-        List<WeatherDateSummary> weatherDateSummaries = weatherDateSearchService.getAllData();
+
+        if(weatherDateSummaries.values.isEmpty()){
+            redirectAttributes.addFlashAttribute("noDataFound","Not match result data found");
+        }
         redirectAttributes.addFlashAttribute("weatherDateSummaries",weatherDateSummaries);
         return "redirect:/weather-day/query";
     }
