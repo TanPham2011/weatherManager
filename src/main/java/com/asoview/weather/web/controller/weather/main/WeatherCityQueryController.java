@@ -1,6 +1,8 @@
 package com.asoview.weather.web.controller.weather.main;
 
+import com.asoview.weather.core.model.city.CitySummary;
 import com.asoview.weather.core.model.weather.register.Criteria;
+import com.asoview.weather.core.service.city.CitySearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,7 +20,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @SessionAttributes(value = "criteriaOfWeather")
 class WeatherCityQueryController {
 
-
+    @Autowired
+    CitySearchService citySearchService;
 
     @ModelAttribute("criteriaOfWeather")
     Criteria criteria() {
@@ -38,6 +41,10 @@ class WeatherCityQueryController {
 
         //String a = criteria.getCityName();
 
+        CitySummary citySummary = citySearchService.findByCityName(criteria);
+        if(citySummary == null){
+            String a = "99";
+        }
 //        PartnerSummaries partnerSummaries = partnerSearchService.listByCriteria(criteria);
 //        redirectAttributes.addFlashAttribute("partnerSummaries", partnerSummaries);
         return "redirect:/weather-day/query";
