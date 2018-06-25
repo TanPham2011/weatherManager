@@ -1,15 +1,12 @@
 package com.asoview.weather.core.model.weather.register;
 
 import javax.validation.constraints.AssertTrue;
+import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 
 public class Criteria implements Serializable {
+    @NotBlank(message = "Please input search city name")
     String cityName = "";
-
-    @AssertTrue(message = "検索条件を指定してください")
-    public boolean isSpecified() {
-        return !cityName.isEmpty();
-    }
 
     public String getCityName() {
         return cityName;
