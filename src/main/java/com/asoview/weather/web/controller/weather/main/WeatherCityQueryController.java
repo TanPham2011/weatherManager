@@ -2,6 +2,8 @@ package com.asoview.weather.web.controller.weather.main;
 
 import com.asoview.weather.core.model.city.CitySummary;
 import com.asoview.weather.core.model.weather.register.Criteria;
+import com.asoview.weather.core.model.weatherdate.WeatherDateSummary;
+import com.asoview.weather.core.service.WeatherDateSearchService;
 import com.asoview.weather.core.service.city.CitySearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,6 +16,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import java.util.List;
+
 
 @Controller
 @RequestMapping(value = "/weather-day/query")
@@ -23,15 +27,16 @@ class WeatherCityQueryController {
     @Autowired
     CitySearchService citySearchService;
 
+    @Autowired
+    WeatherDateSearchService weatherDateSearchService;
+
     @ModelAttribute("criteriaOfWeather")
     Criteria criteria() {
         return new Criteria();
     }
 
     @RequestMapping(value = "", method = RequestMethod.GET)
-    String start() {
-        return "weatherday/query/list";
-    }
+    String start() { return "weatherday/query/list"; }
 
     @RequestMapping(value = "", method = RequestMethod.POST)
     String search(@Validated @ModelAttribute("criteriaOfWeather") Criteria criteria,
@@ -45,8 +50,8 @@ class WeatherCityQueryController {
         if(citySummary == null){
             String a = "99";
         }
-//        PartnerSummaries partnerSummaries = partnerSearchService.listByCriteria(criteria);
-//        redirectAttributes.addFlashAttribute("partnerSummaries", partnerSummaries);
+        List<WeatherDateSummary> weatherDateSummaries = weatherDateSearchService.getAllData();
+        redirectAttributes.addFlashAttribute("weatherDateSummaries",weatherDateSummaries);
         return "redirect:/weather-day/query";
     }
 }
