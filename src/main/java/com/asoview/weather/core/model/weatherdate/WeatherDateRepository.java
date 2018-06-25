@@ -6,4 +6,5 @@ public interface WeatherDateRepository {
     List<WeatherDateSummary> getAll();
     WeatherDateSummaries weatherDateList();
     void deleteWeatherDateById(Integer weatherDateId);
+    WeatherDateSummaries weatherDateListByCity(String cityId);
 }

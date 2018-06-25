@@ -6,6 +6,7 @@ import com.asoview.weather.core.model.weatherdate.WeatherDateSummary;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Repository
@@ -27,5 +28,17 @@ public class WeatherDateDataSource implements WeatherDateRepository {
     @Override
     public void deleteWeatherDateById(Integer weatherDateId){
         weatherDateMapper.remove(weatherDateId);
+    }
+
+    @Override
+    public WeatherDateSummaries weatherDateListByCity(String cityId){
+        List<WeatherDateSummary> result = weatherDateMapper.getAll();
+        List<WeatherDateSummary> values = new ArrayList<>();
+        for(WeatherDateSummary item : result){
+            if(item.getCityId().equals(cityId)){
+                values.add(item);
+            }
+        }
+        return new WeatherDateSummaries(values);
     }
 }

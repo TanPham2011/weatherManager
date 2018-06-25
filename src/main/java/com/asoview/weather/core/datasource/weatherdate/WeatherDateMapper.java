@@ -8,4 +8,5 @@ import java.util.List;
 public interface WeatherDateMapper {
     List<WeatherDateSummary> getAll();
     void remove(@Param("weatherDateId") Integer weatherDateId);
+
 }

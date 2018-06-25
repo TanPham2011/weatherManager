@@ -49,7 +49,7 @@ class WeatherCityQueryController {
 
         CitySummary citySummary = citySearchService.findByCityName(criteria);
         if(citySummary != null){
-            weatherDateSummaries = weatherDateSearchService.weatherDateList();
+            weatherDateSummaries = weatherDateSearchService.weatherDateListByCity(citySummary.getId());
         }
 
         if(weatherDateSummaries.values.isEmpty()){

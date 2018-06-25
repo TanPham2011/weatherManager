@@ -26,4 +26,8 @@ public class WeatherDateSearchService {
         weatherDateRepository.deleteWeatherDateById(weatherDateId);
     }
 
+    public WeatherDateSummaries weatherDateListByCity(String cityId){
+        return weatherDateRepository.weatherDateListByCity(cityId);
+    }
+
 }

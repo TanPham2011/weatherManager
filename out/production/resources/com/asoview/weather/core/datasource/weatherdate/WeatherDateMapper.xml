@@ -30,4 +30,5 @@
         DELETE FROM weather.weather_day WHERE id = #{weatherDateId}
     </delete>
 
+
 </mapper>
