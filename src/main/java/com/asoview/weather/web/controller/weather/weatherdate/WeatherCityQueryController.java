@@ -1,4 +1,4 @@
-package com.asoview.weather.web.controller.weather.main;
+package com.asoview.weather.web.controller.weather.weatherdate;
 
 import com.asoview.weather.core.model.city.CitySummary;
 import com.asoview.weather.core.model.weather.register.Criteria;
@@ -7,7 +7,6 @@ import com.asoview.weather.core.service.WeatherDateSearchService;
 import com.asoview.weather.core.service.city.CitySearchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.ModelAttribute;
