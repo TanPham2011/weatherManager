@@ -23,4 +23,9 @@ public class WeatherDateDataSource implements WeatherDateRepository {
     public WeatherDateSummaries weatherDateList(){
         return new WeatherDateSummaries(weatherDateMapper.getAll());
     }
+
+    @Override
+    public void deleteWeatherDateById(Integer weatherDateId){
+        weatherDateMapper.remove(weatherDateId);
+    }
 }

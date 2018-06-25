@@ -26,4 +26,8 @@
 
     </select>
 
+    <delete id="remove">
+        DELETE FROM weather.weather_day WHERE id = #{weatherDateId}
+    </delete>
+
 </mapper>

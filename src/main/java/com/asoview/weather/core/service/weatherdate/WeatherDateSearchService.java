@@ -22,4 +22,8 @@ public class WeatherDateSearchService {
         return weatherDateRepository.weatherDateList();
     }
 
+    public void deleteWeatherDateById(Integer weatherDateId){
+        weatherDateRepository.deleteWeatherDateById(weatherDateId);
+    }
+
 }
