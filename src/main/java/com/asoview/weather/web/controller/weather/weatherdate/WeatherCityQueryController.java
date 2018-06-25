@@ -2,6 +2,7 @@ package com.asoview.weather.web.controller.weather.weatherdate;
 
 import com.asoview.weather.core.model.city.CitySummary;
 import com.asoview.weather.core.model.weather.register.Criteria;
+import com.asoview.weather.core.model.weatherdate.WeatherDateData;
 import com.asoview.weather.core.model.weatherdate.WeatherDateSummaries;
 import com.asoview.weather.core.model.weatherdate.WeatherDateSummary;
 import com.asoview.weather.core.service.weatherdate.WeatherDateSearchService;
@@ -50,6 +51,12 @@ class WeatherCityQueryController {
         CitySummary citySummary = citySearchService.findByCityName(criteria);
         if(citySummary != null){
             weatherDateSearchService.deleteWeatherDateByCurrentDate(citySummary.getId());
+
+            WeatherDateData weatherDateData = new WeatherDateData();
+            weatherDateData.setCityId(citySummary.getId());
+
+            weatherDateSearchService.registerWeatherDateDate(weatherDateData);
+
             weatherDateSummaries = weatherDateSearchService.weatherDateListByCity(citySummary.getId());
         }
 

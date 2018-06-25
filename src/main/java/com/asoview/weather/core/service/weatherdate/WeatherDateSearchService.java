@@ -1,5 +1,6 @@
 package com.asoview.weather.core.service.weatherdate;
 
+import com.asoview.weather.core.model.weatherdate.WeatherDateData;
 import com.asoview.weather.core.model.weatherdate.WeatherDateRepository;
 import com.asoview.weather.core.model.weatherdate.WeatherDateSummaries;
 import com.asoview.weather.core.model.weatherdate.WeatherDateSummary;
@@ -36,6 +37,10 @@ public class WeatherDateSearchService {
 
     public void deleteWeatherDateByCurrentDate(String cityId){
         weatherDateRepository.deleteWeatherDateByCurrentDate(cityId);
+    }
+
+    public void registerWeatherDateDate(WeatherDateData weatherDateData){
+        weatherDateRepository.register(weatherDateData);
     }
 
 }

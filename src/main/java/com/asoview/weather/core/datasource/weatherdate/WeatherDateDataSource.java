@@ -1,5 +1,6 @@
 package com.asoview.weather.core.datasource.weatherdate;
 
+import com.asoview.weather.core.model.weatherdate.WeatherDateData;
 import com.asoview.weather.core.model.weatherdate.WeatherDateRepository;
 import com.asoview.weather.core.model.weatherdate.WeatherDateSummaries;
 import com.asoview.weather.core.model.weatherdate.WeatherDateSummary;
@@ -46,5 +47,10 @@ public class WeatherDateDataSource implements WeatherDateRepository {
     @Override
     public void deleteWeatherDateByCurrentDate(String cityId){
         weatherDateMapper.removeByCurrentDate(cityId);
+    }
+
+    @Override
+    public void register(WeatherDateData weatherDateData){
+        weatherDateMapper.register(weatherDateData);
     }
 }
