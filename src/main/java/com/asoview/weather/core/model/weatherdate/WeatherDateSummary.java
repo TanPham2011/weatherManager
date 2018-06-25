@@ -4,6 +4,7 @@ public class WeatherDateSummary {
     String cityId = "";
     String cityName = "";
     String weatherDate = "";
+    String weatherDateId = "";
 
     public WeatherDateSummary() {
     }
@@ -30,5 +31,13 @@ public class WeatherDateSummary {
 
     public void setWeatherDate(String weatherDate) {
         this.weatherDate = weatherDate;
+    }
+
+    public String getWeatherDateId() {
+        return weatherDateId;
+    }
+
+    public void setWeatherDateId(String weatherDateId) {
+        this.weatherDateId = weatherDateId;
     }
 }

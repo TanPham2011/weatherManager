@@ -6,19 +6,21 @@
         <result property="cityId" column="id"/>
         <result property="cityName" column="city_name"/>
         <result property="weatherDate" column="weather_day"/>
+        <result property="weatherDateId" column="weather_day_id"/>
     </resultMap>
 
     <select id="getAll" resultMap="weatherDateSummary">
         SELECT
         cities.id,
         cities.city_name,
-        DATE_FORMAT(weather_day.weather_date, '%Y/%c/%e') weather_day
+        DATE_FORMAT(weather_day.weather_date, '%Y/%c/%e') weather_day,
+        weather_day.id weather_day_id
         FROM
         weather.cities cities
         INNER JOIN
         weather.weather_day ON weather.cities.id = weather.weather_day.city_id
         GROUP BY
-        cities.id, cities.city_name, weather_day
+        cities.id, cities.city_name, weather_day, weather_day_id
         ORDER By
         weather_day DESC
 

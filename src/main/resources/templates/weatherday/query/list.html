@@ -28,7 +28,7 @@
                             <label style="color: #a94442;" class="control-label" th:errors="*{cityName}">City name is not null</label>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div>
                         <button type="submit" class="btn btn-default">Search</button>
                     </div>
 
@@ -55,7 +55,7 @@
                         </td>
                         <td class="col-sm-1">
                             <a class="btn btn-danger" role="button" href=""
-                               th:href="@{'/weather-date/delete/' + ${weatherDateItem.cityId}}">Delete</a>
+                               th:href="@{'/weather-date/delete/' + ${weatherDateItem.weatherDateId}}">Delete</a>
                         </td>
                     </tr>
                 </table>
