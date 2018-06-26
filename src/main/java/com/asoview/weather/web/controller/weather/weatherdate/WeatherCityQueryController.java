@@ -48,16 +48,10 @@ class WeatherCityQueryController {
 
         WeatherDateSummaries weatherDateSummaries = new WeatherDateSummaries(new ArrayList<WeatherDateSummary>());
 
-        CitySummary citySummary = citySearchService.findByCityName(criteria);
-        if(citySummary != null){
-            weatherDateSearchService.deleteWeatherDateByCurrentDate(citySummary.getId());
-
-            WeatherDateData weatherDateData = new WeatherDateData();
-            weatherDateData.setCityId(citySummary.getId());
-
-            weatherDateSearchService.registerWeatherDateDate(weatherDateData);
-
-            weatherDateSummaries = weatherDateSearchService.weatherDateListByCity(citySummary.getId());
+        List<CitySummary> citySummaries = citySearchService.findByCityName(criteria);
+        if(!citySummaries.isEmpty()){
+            weatherDateSearchService.registerWeatherDateDate(citySummaries);
+            weatherDateSummaries = weatherDateSearchService.weatherDateListByCity(citySummaries);
         }
 
         if(weatherDateSummaries.values.isEmpty()){

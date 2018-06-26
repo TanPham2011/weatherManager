@@ -2,6 +2,8 @@ package com.asoview.weather.core.model.city;
 
 import com.asoview.weather.core.model.weather.register.Criteria;
 
+import java.util.List;
+
 public interface CityRepository {
-    CitySummary findByCity(Criteria criteria);
+    List<CitySummary> findByCity(Criteria criteria);
 }

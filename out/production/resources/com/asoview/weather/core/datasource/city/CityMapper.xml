@@ -5,13 +5,14 @@
     <resultMap id="city" type="com.asoview.weather.core.model.city.CitySummary">
         <result property="id" column="id"/>
         <result property="cityName" column="city_name"/>
-
+        <result property="countryName" column="country_name"/>
     </resultMap>
 
     <select id="findByCity" resultMap="city">
         SELECT
         cities.id,
-        cities.city_name
+        cities.city_name,
+        cities.country_name
         FROM
         weather.cities cities
         WHERE

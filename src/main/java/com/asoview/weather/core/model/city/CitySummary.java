@@ -4,6 +4,7 @@ public class CitySummary {
 
     String id  = "";
     String cityName = "";
+    String countryName = "";
 
     public CitySummary() {
     }
@@ -22,5 +23,13 @@ public class CitySummary {
 
     public void setCityName(String cityName) {
         this.cityName = cityName;
+    }
+
+    public String getCountryName() {
+        return countryName;
+    }
+
+    public void setCountryName(String countryName) {
+        this.countryName = countryName;
     }
 }

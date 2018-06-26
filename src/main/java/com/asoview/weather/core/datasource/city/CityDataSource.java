@@ -6,6 +6,8 @@ import com.asoview.weather.core.model.weather.register.Criteria;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public class CityDataSource implements CityRepository {
 
@@ -13,7 +15,7 @@ public class CityDataSource implements CityRepository {
     CityMapper cityMapper;
 
     @Override
-    public CitySummary findByCity(Criteria criteria){
+    public List<CitySummary> findByCity(Criteria criteria){
         return cityMapper.findByCity(criteria);
 
     }

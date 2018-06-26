@@ -1,5 +1,6 @@
 package com.asoview.weather.core.datasource.weatherdate;
 
+import com.asoview.weather.core.model.city.CitySummary;
 import com.asoview.weather.core.model.weatherdate.WeatherDateData;
 import com.asoview.weather.core.model.weatherdate.WeatherDateRepository;
 import com.asoview.weather.core.model.weatherdate.WeatherDateSummaries;
@@ -33,12 +34,14 @@ public class WeatherDateDataSource implements WeatherDateRepository {
     }
 
     @Override
-    public WeatherDateSummaries weatherDateListByCity(String cityId){
+    public WeatherDateSummaries weatherDateListByCity(List<CitySummary> citySummaries){
         List<WeatherDateSummary> result = weatherDateMapper.getAll();
         List<WeatherDateSummary> values = new ArrayList<>();
-        for(WeatherDateSummary item : result){
-            if(item.getCityId().equals(cityId)){
-                values.add(item);
+        for (CitySummary citySummary:citySummaries) {
+            for(WeatherDateSummary item : result){
+                if(item.getCityId().equals(citySummary.getId())){
+                    values.add(item);
+                }
             }
         }
         return new WeatherDateSummaries(values);

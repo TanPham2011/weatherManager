@@ -6,13 +6,15 @@ import com.asoview.weather.core.model.weather.register.Criteria;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class CitySearchService {
 
     @Autowired
     CityRepository cityRepository;
 
-    public CitySummary findByCityName(Criteria criteria){
+    public List<CitySummary> findByCityName(Criteria criteria){
         return cityRepository.findByCity(criteria);
     }
 

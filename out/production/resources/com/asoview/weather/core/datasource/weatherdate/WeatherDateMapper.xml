@@ -5,26 +5,52 @@
     <insert id="register">
         INSERT INTO weather.weather_day (
           city_id,
-          weather_date
+          weather_date,
+          weather_status,
+          weather_icon,
+          weather_temperature,
+          weather_pressure,
+          weather_wind_speed,
+          weather_clouds
         ) VALUES (
           #{weatherDateData.cityId},
-          DATE_FORMAT(NOW(), '%Y-%m-%d')
+          DATE_FORMAT(NOW(), '%Y-%m-%d'),
+          #{weatherDateData.weatherStatus},
+          #{weatherDateData.weatherIcon},
+          #{weatherDateData.weatherTemperature},
+          #{weatherDateData.weatherPressure},
+          #{weatherDateData.weatherWindSpeed},
+          #{weatherDateData.weatherClouds}
         )
     </insert>
 
     <resultMap id="weatherDateSummary" type="com.asoview.weather.core.model.weatherdate.WeatherDateSummary">
         <result property="cityId" column="id"/>
         <result property="cityName" column="city_name"/>
+        <result property="countryName" column="country_name"/>
         <result property="weatherDate" column="weather_day"/>
         <result property="weatherDateId" column="weather_day_id"/>
+        <result property="weatherStatus" column="weather_status"/>
+        <result property="weatherIcon" column="weather_icon"/>
+        <result property="weatherTemperature" column="weather_temperature"/>
+        <result property="weatherPressure" column="weather_pressure"/>
+        <result property="weatherWindSpeed" column="weather_wind_speed"/>
+        <result property="weatherClouds" column="weather_clouds"/>
     </resultMap>
 
     <select id="getAll" resultMap="weatherDateSummary">
         SELECT
         cities.id,
         cities.city_name,
+        cities.country_name,
         DATE_FORMAT(weather_day.weather_date, '%Y/%c/%e') weather_day,
-        weather_day.id weather_day_id
+        weather_day.id weather_day_id,
+        weather_day.weather_status,
+        weather_day.weather_icon,
+        weather_day.weather_temperature,
+        weather_day.weather_pressure,
+        weather_day.weather_wind_speed,
+        weather_day.weather_clouds
         FROM
         weather.cities cities
         INNER JOIN
