@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec6c394-e7cd-4e39-b009-9397dfb11e27" name="Default" comment="" />
+    <list default="true" id="9ec6c394-e7cd-4e39-b009-9397dfb11e27" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/global-navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/global-navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,45 +44,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OpenWeatherAPI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/asoview/weather/core/service/api/OpenWeatherAPI.java">
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-              <folding>
-                <element signature="e#844#867#1" expanded="true" />
-                <element signature="e#916#943#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="93" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherDateSearchService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/asoview/weather/core/service/weatherdate/WeatherDateSearchService.java">
+      <file leaf-file-name="editing-ticket-type.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/editing-ticket-type.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="global-navigation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/global-navigation.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/head.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="page-footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/page-footer.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/layout.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="dev.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="45" column="84" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="84" />
+            <state>
+              <caret column="487" selection-start-column="478" selection-end-column="487" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherCityQueryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/asoview/weather/web/controller/weather/weatherdate/WeatherCityQueryController.java">
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/404.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="500.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/500.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="305">
+              <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <file leaf-file-name="top.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/top.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="39">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -93,6 +127,8 @@
       <find>fragments/head :: #favicon</find>
       <find>システムエラー</find>
       <find>weatherDateSummaries</find>
+      <find>component</find>
+      <find>asoview! Ticket Manager</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -537,7 +573,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/404.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/asoview/weather/web/controller/weather/MyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/asoview/weather/web/controller/weather/error/CustomErrorPages.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/asoview/weather/web/controller/weather/main/TicketTypeQueryController.java" />
@@ -545,8 +580,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/global-navigation.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/page-footer.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/weather-day/query/test/list.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/error/500.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/error/404.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/weather-day/query/list.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/asoview/weather/web/controller/weather/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/weatherday/index.html" />
@@ -588,6 +621,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/asoview/weather/web/controller/weather/weatherdate/WeatherCityQueryController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/service/api/OpenWeatherAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/error/404.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/error/500.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/top.html" />
       </list>
     </option>
   </component>
@@ -740,6 +776,49 @@
             </path>
             <path>
               <item name="weather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -792,23 +871,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/fragments" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/document/sql" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/image/weather" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.asoview.weather" />
+      <recent name="com.asoview.weather.core.datasource" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/asoview/weather/core/datasource" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/asoview/weather/core/datasource/city" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/weather-day/query/test" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.asoview.weather" />
-      <recent name="com.asoview.weather.core.datasource" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$/src/document/sql" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/image/weather" />
-      <recent name="$PROJECT_DIR$/src/main/resources/com/asoview/weather/core/datasource/weatherdate" />
-      <recent name="$PROJECT_DIR$/src/main/resources/com/asoview/weather/core/datasource/city" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -885,7 +964,7 @@
       <workItem from="1529720710859" duration="53142000" />
       <workItem from="1529999376401" duration="51000" />
       <workItem from="1529999465133" duration="731000" />
-      <workItem from="1530000412908" duration="2082000" />
+      <workItem from="1530000412908" duration="3271000" />
     </task>
     <servers />
   </component>
@@ -901,7 +980,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56186000" />
+    <option name="totallyTimeSpent" value="57375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -940,6 +1019,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25444266" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -949,7 +1029,6 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32965517" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -972,26 +1051,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/asoview/weather/core/datasource/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/asoview/weather/core/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/asoview/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/asoview/weather/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-607" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/asoview/weather/datasource/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/asoview/weather/datasource/city/CityMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/asoview/weather/core/datasource/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CityMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1248,6 +1307,52 @@
             <element signature="e#844#867#1" expanded="true" />
             <element signature="e#916#943#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="487" selection-start-column="478" selection-end-column="487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/editing-ticket-type.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/global-navigation.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/head.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/page-footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/layout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="93" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>

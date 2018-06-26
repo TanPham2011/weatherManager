@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8"/>
+  <title>asoview! Weather Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--/*-->
+  <script src="/static/js/dev.js"></script>
+  <link id="import-head" rel="import" href="/templates/fragments/head.html" />
+  <!--*/-->
+
+  <!--/*--><script>component('head','favicon')</script><!--*/-->
+  <!--/*/
+  <th:block th:replace="fragments/head::#favicon"></th:block>
+  <th:block th:replace="fragments/head::#bootstrap"></th:block>
+  /*/-->
+
+  <link rel="stylesheet" href="/static/css/login.min.css" th:href="@{/css/login.min.css}"/>
+</head>
+
+<body class="page-body">
+  <div class="login-panel">
+    <h1 class="login-panel__title">asoview! Weather Manager</h1>
+    <div class="login-panel__body">
+      <p>v2.0.0</p>
+    </div>
+    <div class="login-panel__foot">
+      <a class="btn btn-default" href="/templates/top.html" th:href="@{/login}">Googleアカウントでログイン</a>
+    </div>
+  </div>
+</body>
+</html>

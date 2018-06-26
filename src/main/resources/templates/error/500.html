@@ -9,7 +9,7 @@
   <link id="import-head" rel="import" href="/templates/fragments/head.html" />
   <!--*/-->
 
-  <!--/*<script>component('head','favicon')</script>*/-->
+  <script>component('head','favicon')</script>
   <!--/*/
   <th:block th:replace="fragments/head::#favicon"></th:block>
   <th:block th:replace="fragments/head::#bootstrap"></th:block>
@@ -23,7 +23,7 @@
     <p class="error-panel__message" th:if="${message}" th:text="${message}" />
     <p class="error-panel__message" th:unless="${message}">システムエラーが発生しました。</p>
     <p class="error-panel__foot">
-      <a class="error-panel__link" href="/templates/top.html" th:href="@{/}">asoview! Ticket Manager</a>
+      <a class="error-panel__link" href="/templates/top.html" th:href="@{/}">asoview! Weather Manager</a>
     </p>
   </div>
 </body>
