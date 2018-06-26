@@ -50,7 +50,7 @@ class WeatherCityQueryController {
 
         List<CitySummary> citySummaries = citySearchService.findByCityName(criteria);
         if(!citySummaries.isEmpty()){
-            weatherDateSearchService.registerWeatherDateDate(citySummaries);
+            weatherDateSearchService.registerCurrentWeatherData(citySummaries);
             weatherDateSummaries = weatherDateSearchService.weatherDateListByCity(citySummaries);
         }
 

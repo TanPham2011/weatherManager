@@ -41,9 +41,9 @@ public class WeatherDateSearchService {
         weatherDateRepository.deleteWeatherDateByCurrentDate(cityId);
     }
 
-    public void registerWeatherDateDate(List<CitySummary> citySummaries){
+    public void registerCurrentWeatherData(List<CitySummary> citySummaries){
         for(CitySummary citySummary:citySummaries){
-            WeatherDateAPI weatherDateAPI = openWeatherAPI.getCurrentWeather(citySummary.getId());
+            WeatherDateAPI weatherDateAPI = openWeatherAPI.getCurrentWeatherDataAPI(citySummary.getId());
             if(weatherDateAPI.isValid()) {
                 deleteWeatherDateByCurrentDate(citySummary.getId());
                 weatherDateRepository.register(new WeatherDateData(weatherDateAPI, citySummary));
