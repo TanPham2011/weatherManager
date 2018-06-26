@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ec6c394-e7cd-4e39-b009-9397dfb11e27" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/api/WeatherDateAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/service/api/OpenWeatherAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/datasource/city/CityDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/datasource/city/CityDataSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/datasource/city/CityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/datasource/city/CityMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/datasource/weatherdate/WeatherDateDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/datasource/weatherdate/WeatherDateDataSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/model/city/CityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/model/city/CityRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/model/city/CitySummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/model/city/CitySummary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/model/weatherdate/WeatherDateData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/model/weatherdate/WeatherDateData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/model/weatherdate/WeatherDateRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/model/weatherdate/WeatherDateRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/model/weatherdate/WeatherDateSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/model/weatherdate/WeatherDateSummary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/service/city/CitySearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/service/city/CitySearchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/service/weatherdate/WeatherDateSearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/core/service/weatherdate/WeatherDateSearchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/web/controller/weather/weatherdate/WeatherCityQueryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/asoview/weather/web/controller/weather/weatherdate/WeatherCityQueryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/com/asoview/weather/core/datasource/city/CityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/com/asoview/weather/core/datasource/city/CityMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/com/asoview/weather/core/datasource/weatherdate/WeatherDateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/com/asoview/weather/core/datasource/weatherdate/WeatherDateMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/weatherday/query/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/weatherday/query/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/datasource/city/CityDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/datasource/city/CityDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/datasource/city/CityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/datasource/city/CityMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/datasource/weatherdate/WeatherDateDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/datasource/weatherdate/WeatherDateDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/city/CityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/city/CityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/city/CitySummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/city/CitySummary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/weatherdate/WeatherDateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/weatherdate/WeatherDateData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/weatherdate/WeatherDateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/weatherdate/WeatherDateRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/weatherdate/WeatherDateSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/weatherdate/WeatherDateSummary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/service/city/CitySearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/service/city/CitySearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/service/weatherdate/WeatherDateSearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/core/service/weatherdate/WeatherDateSearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asoview/weather/web/controller/weather/weatherdate/WeatherCityQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/asoview/weather/web/controller/weather/weatherdate/WeatherCityQueryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/asoview/weather/core/datasource/city/CityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/asoview/weather/core/datasource/city/CityMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/asoview/weather/core/datasource/weatherdate/WeatherDateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/asoview/weather/core/datasource/weatherdate/WeatherDateMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/weatherday/query/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/weatherday/query/list.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -63,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherDateAPI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeatherDateAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/api/WeatherDateAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="870">
               <caret line="74" column="77" selection-start-line="74" selection-start-column="77" selection-end-line="74" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -78,6 +48,18 @@
                 <element signature="e#1470#1471#0" expanded="true" />
                 <element signature="e#1528#1529#0" expanded="true" />
                 <element signature="e#1578#1579#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityDataSource.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/asoview/weather/core/datasource/city/CityDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -740,224 +722,7 @@
               <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="datasource" type="462c0819:PsiDirectoryNode" />
-              <item name="weatherdate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="weatherdate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="weatherdate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="weatherdate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="weatherday" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="weatherday" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.6" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-databind-2.9.6.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-databind-2.9.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="databind" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-databind-2.9.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="databind" type="462c0819:PsiDirectoryNode" />
-              <item name="deser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-databind-2.9.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="databind" type="462c0819:PsiDirectoryNode" />
-              <item name="deser" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="method" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.springframework:spring-web:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="method" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="city" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1070,12 +835,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529720505302</updated>
       <workItem from="1529720507469" duration="180000" />
-      <workItem from="1529720710859" duration="47322000" />
+      <workItem from="1529720710859" duration="47596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47502000" />
+    <option name="totallyTimeSpent" value="47776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1108,11 +873,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32965517" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24232633" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24232633" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
@@ -1322,16 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/asoview/weather/core/datasource/city/CityDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/asoview/weather/core/service/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1525,7 +1280,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/asoview/weather/core/model/api/WeatherDateAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="870">
           <caret line="74" column="77" selection-start-line="74" selection-start-column="77" selection-end-line="74" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1537,6 +1292,16 @@
             <element signature="e#1470#1471#0" expanded="true" />
             <element signature="e#1528#1529#0" expanded="true" />
             <element signature="e#1578#1579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/asoview/weather/core/datasource/city/CityDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
